@@ -1,0 +1,79 @@
+.icon{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-16{
+    background-size: 16px;
+}
+
+.icon-20{
+    background-size: 20px;
+}
+
+.icon-24{
+    background-size: 24px;
+}
+
+
+.icon--add{
+    background-image: url(../../assets/icon/add.png);
+}
+.icon--refresh{
+    background-image: url(../../assets/icon/refresh.png);
+}
+
+.icon--delete{
+    background-image: url(../../assets/icon/delete-48.png);
+}
+.icon--export{
+    background-image: url(../../assets/icon/export-excel-50.png);
+}
+.icon--success{
+    background-image: url(../../assets/icon/success-48.png);
+}
+
+.icon--error{
+    background-image: url(../../assets/icon/error-48.png);
+}
+
+.icon--warning{
+    background-image: url(../../assets/icon/warning-48.png);
+}
+
+.icon--info{
+    background-image: url(../../assets/icon/info-48.png);
+}
+
+.icon--question{
+    background-image: url(../../assets/icon/question-48.png);
+}
+
+.icon--close{
+    background-image: url(../../assets/icon/x.svg);
+}
+
+.icon--dashboard{
+    background-image: url(../../assets/icon/dashboard.png);
+}
+
+.icon--employee{
+    background-image: url(../../assets/icon/dic-employee.png);
+}
+
+.icon--report{
+    background-image: url(../../assets/icon/report.png);
+}
+
+.icon--setting{
+    background-image: url(../../assets/icon/setting.png);
+}
+
+.icon--discuss{
+    background-image: url(../../assets/icon/discuss-32.png);
+}
+
+.icon--share{
+    background-size: 32px 32px !important;
+    background-image: url(../../assets/icon/share-64.png);
+}

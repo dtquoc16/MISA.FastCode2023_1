@@ -1,0 +1,40 @@
+.toast-block{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+.toast+.toast{
+    margin-top: 10px;
+}
+
+.toast{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.toast__icon{
+    flex: 0 0 24px;
+    height: 24px;
+    /* background-image: url(../../../assets/icon/icons-48.png); */
+    background-size: contain;
+    
+}
+
+.toast__text{
+
+}
+
+.toast__button{
+    flex: 0 0 16px;
+    height: 16px;
+    /* background-image: url(../../../assets/icon/close-48.png); */
+    background-size: contain;
+    border: unset;
+    background-color: unset;
+}

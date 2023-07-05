@@ -1,0 +1,39 @@
+.paging{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 100%;
+}
+.page__toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paging__record-total{
+    font-weight: 700;
+}
+
+.paging__right{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.paging__limit{
+    height: 24px;
+    border: unset;
+}
+.paging__button{
+    width: 24px;
+    height: 24px;
+    border: unset;
+    background-color: unset;
+}
+
+.paging__button--prev{
+    background-image: url(../../assets/icon/btn-prev-page.svg);
+}   
+
+.paging__button--next{
+    background-image: url(../../assets/icon/btn-next-page.svg);
+}

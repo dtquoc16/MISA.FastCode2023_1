@@ -1,0 +1,102 @@
+.m-form {
+    position: fixed;
+    background-color: #00000085;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.m-form-container {
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.m-form__button--close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/icon/close-48.png);
+    background-size: contain;
+    border: unset;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.m-form__header {
+    padding: 22px 64px 0px 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.m-form__body {
+    flex: 1;
+    padding: 22px 24px 24px 24px;
+}
+
+.m-form__footer {
+    padding: 12px 24px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 4px 4px;
+}
+
+.m-form__footer button {
+    height: 26;
+}
+
+.m-form__footer button:hover,
+.m-form__footer button:focus {}
+
+.m-form__button--cancel {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.m-form__body--notice {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.m-form__icon {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+.m-form__text {}
+
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.control-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    box-sizing: border-box;
+}
+
+.control__text--error {
+    display: none;
+    color: #ff0000;
+}
+
+
+.control__text--error+.control--invalid {
+    display: block;
+}

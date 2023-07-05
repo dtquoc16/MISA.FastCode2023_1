@@ -1,0 +1,34 @@
+[
+    {
+        "ThreadId":1,
+        "ThreadName":"Cần giúp đỡ về việc sử dụng thuộc tính flex?",
+        "ThreadType":1,
+        "ThreadUser":"Nguyễn Văn Mạnh",
+        "AnswerNumber":100,
+        "CreatedDate":""
+    },
+    {
+        "ThreadId":2,
+        "ThreadName":"Có bao nhiêu cách để thực hiện layout website?",
+        "ThreadType":2,
+        "ThreadUser":"Đỗ Văn Cường",
+        "AnswerNumber":8,
+        "CreatedDate":""
+    },
+    {
+        "ThreadId":3,
+        "ThreadName":"Thảo luận về hiệu năng sử dụng các component có binding 2 chiều với nhiều thông tin.",
+        "ThreadType":2,
+        "ThreadUser":"Nguyễn Thị Nga",
+        "AnswerNumber":12,
+        "CreatedDate":""
+    },
+    {
+        "ThreadId":4,
+        "ThreadName":"Chia sẻ việc lập trình đồng bộ trong Javascript, những điều cần lưu ý.",
+        "ThreadType":3,
+        "ThreadUser":"Hoàng Ngọc Hân",
+        "AnswerNumber":54,
+        "CreatedDate":""
+    }
+]

@@ -1,0 +1,110 @@
+.dialog__content__info {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+    padding: 0px 24px;
+}
+
+.dialog__content__info__left {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex: 50%;
+    gap: 8px;
+}
+
+.dialog__content__info__right {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 8px;
+    flex: 50%;
+    
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    /* display:none; */
+}
+
+.dialog__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.dialog {
+    width: 700px;
+    max-height: 95%;
+    background: #fff;
+    border-radius: var(--border-radius);
+    overflow: auto;     
+}
+
+.dialog__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.dialog__header__action {
+    display: flex;
+    align-items: center;
+}
+
+.dialog__title {
+    display: flex;
+    align-items: center;
+}
+
+.dialog__title__name, .dialog__close {
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.dialog__title__name {
+    margin-right: 12px;
+}
+
+.dialog__content {
+    color: #1F1F1F;
+    font-size: 14px;
+}
+
+.dialog__action {
+   
+    background: #F5F5F5;
+    padding: 12px 24px;
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    padding: 12px ;
+}
+
+.error-message {
+    color: red;
+}
+
+.radio__container {
+    margin-bottom: 12px;
+}
+

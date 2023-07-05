@@ -1,0 +1,54 @@
+button {
+    min-width: 80px;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    color: #212121;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 0 16px;
+}
+
+
+button:hover {
+    background: #cccccc;
+}
+
+.btn--small {
+    height: 32px;
+}
+
+.btn--large {
+    height: 40px;
+}
+.btn--primary {
+    background-color: #50b83c;
+    color: #fff;
+    border: none;
+}
+
+.btn--red {
+    background-color: red;
+    color: #fff;
+    border: none;
+    margin-right: 12px;
+}
+
+
+.btn--primary:hover {
+    background-color: #57C841;
+}
+
+
+.btn__icon {
+    padding-left: 12px;
+    padding-right: 4px
+}
+
+

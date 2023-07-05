@@ -1,0 +1,30 @@
+.page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.page__header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.page__title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.page__button button{
+ float: right;
+}
+
+.page__container{
+    background-color: #FFF;
+    border-radius: 4px;
+    height: calc(100% - 50px);
+    padding: 0 16px;
+}
